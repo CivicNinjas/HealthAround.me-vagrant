@@ -12,7 +12,9 @@ system configuration scripts.
 3. `vagrant up`
 4. `vagrant ssh`, and then:
 
-        workon healthgeist
+        sudo service supervisor stop
+        sudo service supervisor start
+        cd /var/www/healthgeist
         ./manage.py createsuperuser
         ./manage.py runserver_plus
 
