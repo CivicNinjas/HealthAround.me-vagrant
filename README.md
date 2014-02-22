@@ -16,7 +16,6 @@ system configuration scripts.
         sudo service supervisor start
         cd /var/www/healthgeist
         ./manage.py createsuperuser
-        ./manage.py runserver_plus
 
 5. Open a browser and go to <http://localhost:8080>.
    <http://localhost:8080/admin> may also be interesting.
