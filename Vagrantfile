@@ -27,7 +27,7 @@ apt-get install git -y
 cd /srv/salt
 ./setupsalt-minion
 salt-call state.highstate
-cd /var/www/healthgeist
+cd /var/www/healthroundme/
 #~/.virtualenvs/healthgeist/bin/pip install django_extensions
 ./manage.py syncdb --noinput
 ./manage.py migrate

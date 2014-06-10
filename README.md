@@ -7,8 +7,8 @@ system configuration scripts.
 ## Setup
 
 1. [Install Vagrant](http://www.vagrantup.com)
-2. `git clone git@github.com:CivicNinjas/SitegeistHealth-saltstack.git salt/roots/salt`
-2. `git clone git@github.com:CivicNinjas/SitegeistHealth.git salt/roots/project`
+2. `git clone git@github.com:CivicNinjas/HealthAround.me-saltstack.git salt/roots/salt`
+2. `git clone git@github.com:CivicNinjas/HealthAround.me.git salt/roots/project`
 3. `vagrant up`
 4. `vagrant ssh`, and then:
 
